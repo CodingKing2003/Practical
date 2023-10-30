@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  /* Internal CSS */
+  /* You can also put this CSS in an external file and link it here */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .profile-picture {
+    text-align: center;
+  }
+
+  .profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .profile-details {
+    margin-top: 20px;
+  }
+
+  .profile-details h2 {
+    text-align: center;
+  }
+
+  .profile-details p {
+    text-align: center;
+  }
+
+  .profile-details ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .profile-details ul li {
+    margin-bottom: 10px;
+  }
+
+  .profile-details label {
+    font-weight: bold;
+  }
+
+  .profile-details .description {
+    text-align: justify;
+  }
+
+  .section-heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  .education, .work-experience, .skills {
+    margin-top: 20px;
+  }
+
+  .skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .skills li {
+    background-color: #f4f4f4;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+  }
+</style>
+</head>
+<body>
+  <div class="profile-container">
+    <div class="profile-picture">
+      <img src="https://via.placeholder.com/150" alt="Profile Picture">
+    </div>
+    <div class="profile-details">
+      <h2>Rajan Jha</h2>
+      <p>Web Developer</p>
+      <ul>
+        <li><label>Email:</label> rajanj448@gmail.com</li>
+        <li><label>Phone:</label>9372092013</li>
+        <li><label>Location:</label> Mumbai</li>
+        <li><label>LinkedIn:</label> <a href="https://www.linkedin.com/in/johndoe/" target="_blank">Rajan</a></li>
+        <li><label>Github:</label> <a href="https://github.com/johndoe" target="_blank">Rajan</a></li>
+      </ul>
+      <p class="description">A highly motivated web developer with a strong background in project management and customer relations. Skilled in HTML, CSS, JavaScript, and various web technologies. Experienced in creating responsive and user-friendly websites. Passionate about learning new technologies and implementing them in innovative ways to solve real-world problems.</p>
+
+      <div class="education">
+        <div class="section-heading">Education</div>
+        <ul>
+          <li><strong>University Name, Degree, Year</strong></li>
+          <li>Details about the degree</li>
+        </ul>
+      </div>
+
+      <div class="work-experience">
+        <div class="section-heading">Work Experience</div>
+        <ul>
+          <li><strong>Company Name, Job Title, Year</strong></li>
+          <li>Details about the role and responsibilities</li>
+        </ul>
+      </div>
+
+      <div class="skills">
+        <div class="section-heading">Skills</div>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>UI/UX Design</li>
+          <li>Project Management</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
